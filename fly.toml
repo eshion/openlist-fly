@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for lushi-openlist-v2 on 2025-07-12T13:48:12+08:00
+# fly.toml app configuration file generated for lushi-openlist-v2 on 2026-07-12T22:23:17+08:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'lushi-openlist-v2'
-primary_region = 'hkg'
+primary_region = 'nrt'
 kill_signal = 'SIGINT'
 kill_timeout = '5s'
 
@@ -12,7 +12,6 @@ kill_timeout = '5s'
   auto_rollback = true
 
 [build]
-
 [[mounts]]
   source = 'data'
   destination = '/opt/openlist/data'

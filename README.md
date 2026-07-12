@@ -73,6 +73,7 @@ fly vol destroy <卷id>
 
 # 连接虚拟机
 fly ssh console
+fly ssh console -a lushi-openlist-v2
 ```
 
 
